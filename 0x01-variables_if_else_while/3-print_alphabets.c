@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main(void)
-  /**
+/**
  * main - Entry point of the program
  *
  * Return: Always 0 (Success)
  */
+int main(void)
 {
   char lowercase = 'a';
   char uppercase = 'A';
