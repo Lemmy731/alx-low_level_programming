@@ -2,6 +2,6 @@
 #define MAIN_H
 
 int _putchar(char c);
-void swap_int(int *a, int *b);
+void _strlen(const char *str);
 
 #endif /* MAIN_H */
