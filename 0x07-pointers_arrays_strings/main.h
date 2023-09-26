@@ -4,7 +4,7 @@
 /* Function prototype for _putchar */
 int _putchar(char c);
 
-/* Function prototype for print_chessboard */
-void print_chessboard(char (*a)[8]);
+/* Function prototype for print_diagsums */
+void print_diagsums(int *a, int size);
 
 #endif /* MAIN_H */
