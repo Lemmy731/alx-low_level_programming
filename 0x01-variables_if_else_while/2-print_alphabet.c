@@ -5,20 +5,16 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 char letter;
 
-letter = 'a';
-
-while(letter <= 'z') 
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-putchar(letter); 
-letter++;
+putchar(letter);
 }
 
-putchar('\n'); 
+putchar('\n');
 
 return (0);
 }
