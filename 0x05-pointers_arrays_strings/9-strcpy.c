@@ -21,5 +21,5 @@ char *_strcpy(char *dest, char *src)
 
     *dest = '\0';
 
-    return (dest_start);  // Added parentheses around the return value
+    return (dest_start);
 }
