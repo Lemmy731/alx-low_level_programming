@@ -11,11 +11,11 @@ int i;
 
 for (i = 0; i < n; i++)
 {
-_putchar('0' + a[i]); // Print the digit as a character
+_putchar('0' + a[i]); 
 
 if (i < n - 1)
 _putchar(',');
 }
 
-_putchar('\n'); // Print a newline character at the end
+_putchar('\n');
 }
