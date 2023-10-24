@@ -31,8 +31,10 @@ break;
 }
 
 s++;
-accept = accept - count; // Reset the accept pointer
+accept = accept - count; 
 }
 
 return count;
 }
+
+
