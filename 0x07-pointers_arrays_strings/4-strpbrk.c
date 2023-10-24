@@ -15,11 +15,11 @@ while (*p)
 {
 if (*s == *p)
 {
-return s;
+  return (s);
 p++;
 }
 s++;
 }
 
-return NULL;
+ return ('\0');
 }
