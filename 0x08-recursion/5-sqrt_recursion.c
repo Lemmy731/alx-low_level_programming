@@ -7,20 +7,6 @@
  *
  * Return: The square root of n, or -1 if it doesn't have a natural square root
  */
-int _sqrt_recursion(int n)
-{
-	if (n < 0)
-	return -1;
-
-	return find_sqrt(n, 0);
-}
-
-/**
- * _sqrt_recursion - Calculate the natural square root of a number
- * @n: The number for which to find the square root
- *
- * Return: The square root of n, or -1 if it doesn't have a natural square root
- */
 
 int find_sqrt(int n, int guess)
 {
@@ -31,4 +17,20 @@ int find_sqrt(int n, int guess)
 	return -1;
 
 	return find_sqrt(n, guess + 1);
+}
+
+
+/**
+ * _sqrt_recursion - Calculate the natural square root of a number
+ * @n: The number for which to find the square root
+ *
+ * Return: The square root of n, or -1 if it doesn't have a natural square root
+ */
+
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+	return -1;
+
+	return find_sqrt(n, 0);
 }
